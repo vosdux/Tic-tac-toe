@@ -1,0 +1,56 @@
+.main {
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+}
+#field td {
+	border: 1px solid #000;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#title {
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+#current-gamer {
+	font-weight: 700;
+	font-size: 25px;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 400;
+
+}
+
+button {
+	border-radius: 10px;
+	width: 120px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#winner {
+	font-size: 50px;
+	color: red;
+	font-weight: 700;
+}
